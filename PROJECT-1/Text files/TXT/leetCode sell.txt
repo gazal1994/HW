@@ -1,0 +1,32 @@
+class Solution {
+    public int romanToInt(String s) {
+        int c = 0;
+        for (int i = s.length ; i >  -1  ; i--){
+            char c = s.charAt(i);
+            switch (c)
+            case I:
+             c += 1;
+             continue;
+             case V:
+             c += 5;
+             continue;
+             case X:
+             c += 10;
+             continue;
+             case L:
+             c +=50;
+             continue;
+             case C:
+             c += 100;
+             continue;
+             case D:
+             c += 500;
+             continue;
+             case M:
+             c +=1000;
+             continue;
+        }
+        return c
+        
+    }
+} 
